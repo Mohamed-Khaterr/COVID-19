@@ -13,6 +13,8 @@
 		0192D0BE2688C241005F5E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0192D0BC2688C241005F5E14 /* Main.storyboard */; };
 		0192D0C02688C243005F5E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0192D0BF2688C243005F5E14 /* Assets.xcassets */; };
 		0192D0C32688C243005F5E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0192D0C12688C243005F5E14 /* LaunchScreen.storyboard */; };
+		01C3B053268B6D6A00DCB3B8 /* COVIDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C3B052268B6D6A00DCB3B8 /* COVIDManager.swift */; };
+		01C3B055268B74A300DCB3B8 /* COVIDData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C3B054268B74A300DCB3B8 /* COVIDData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0192D0BF2688C243005F5E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0192D0C22688C243005F5E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0192D0C42688C243005F5E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C3B052268B6D6A00DCB3B8 /* COVIDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVIDManager.swift; sourceTree = "<group>"; };
+		01C3B054268B74A300DCB3B8 /* COVIDData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVIDData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,39 @@
 			children = (
 				0192D0B62688C241005F5E14 /* AppDelegate.swift */,
 				0192D0B82688C241005F5E14 /* SceneDelegate.swift */,
-				0192D0BA2688C241005F5E14 /* ViewController.swift */,
-				0192D0BC2688C241005F5E14 /* Main.storyboard */,
+				0192D0CB2688C294005F5E14 /* Model */,
+				0192D0CC2688C29D005F5E14 /* View */,
+				0192D0CA2688C267005F5E14 /* Controller */,
 				0192D0BF2688C243005F5E14 /* Assets.xcassets */,
-				0192D0C12688C243005F5E14 /* LaunchScreen.storyboard */,
 				0192D0C42688C243005F5E14 /* Info.plist */,
 			);
 			path = "COVID-19";
+			sourceTree = "<group>";
+		};
+		0192D0CA2688C267005F5E14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0192D0BA2688C241005F5E14 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0192D0CB2688C294005F5E14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01C3B052268B6D6A00DCB3B8 /* COVIDManager.swift */,
+				01C3B054268B74A300DCB3B8 /* COVIDData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0192D0CC2688C29D005F5E14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0192D0BC2688C241005F5E14 /* Main.storyboard */,
+				0192D0C12688C243005F5E14 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0192D0BB2688C241005F5E14 /* ViewController.swift in Sources */,
+				01C3B053268B6D6A00DCB3B8 /* COVIDManager.swift in Sources */,
+				01C3B055268B74A300DCB3B8 /* COVIDData.swift in Sources */,
 				0192D0B72688C241005F5E14 /* AppDelegate.swift in Sources */,
 				0192D0B92688C241005F5E14 /* SceneDelegate.swift in Sources */,
 			);
