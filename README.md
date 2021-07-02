@@ -13,7 +13,7 @@ This application shows information about COVID 19 virus of specific country
 - Deaths
 - Population of the Country
 
-<a href="https://imgflip.com/embed/5f7iqj"></a>
+<a href="https://imgflip.com/gif/5f7iqj"></a>
 
 ---
 ### Requirements
