@@ -28,7 +28,7 @@ Architectural Patterns
 Design Patterns
 - Delegates
 
-API from [M-Media-Group](https://github.com/M-Media-Group/Covid-19-API)
+Using public API from [M-Media-Group](https://github.com/M-Media-Group/Covid-19-API)
 
 
 
