@@ -22,7 +22,7 @@ This application shows information about COVID 19 virus of specific country
 - Xcode 11
 ---
 ### Tools
-Architectural Patterns
+Architecture Patterns
 - MVC
 
 Design Patterns
